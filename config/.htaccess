@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName 'Config'
+AuthUserFile /var/www/domains/e/ex/exp/expl4ined.eu/.htpasswd
+Require user 'exway'

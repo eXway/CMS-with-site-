@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName 'Admin Sub'
+AuthUserFile /var/www/domains/e/ex/exp/expl4ined.eu/.htpasswd
+Require user 'exway'

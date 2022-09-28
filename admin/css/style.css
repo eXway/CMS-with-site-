@@ -1,0 +1,125 @@
+  * {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color:black;
+  }
+  body {
+    background-color: #dad8dc;
+    min-width: 710px;
+  }
+
+  .jumbotron {
+    background-color:	#ebebeb;
+  }
+
+  .btn-secondary {
+    background-color: #193242;
+  }
+
+  .btn-secondary:hover {
+    background-color: #29465d;
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: #29465d;
+  }
+
+  .box-shadow {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  }
+
+  .menu-color {
+    background-color: #193242;
+  }
+
+  .nav :hover >a {
+    color: #cfdad4;
+
+  }
+
+  .nav > .nav-item {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  .nav * {
+    color: #FFF;
+  }
+  .title {
+    padding:10px;
+    color: black;
+  }
+  .title >a:hover {
+    color: #cfdad4;
+  }
+  .title >a {
+    color: white;
+    text-decoration: none;
+  }
+   table {
+    margin-right: 10px;
+  }
+  table.prev-tab tr{
+    overflow: hidden;
+  }
+  table.prev-tab  td{
+    word-wrap: break-word;
+    word-break: break-all;
+    text-overflow: clip;
+    max-width: 250px;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: -15px;
+  }
+  .upl-form > td  input, .upl-form > table {
+    width:100%;
+  }
+  .upl-form tr input {
+    width:100%;
+  }
+  .header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+  }
+  .fixed-spacing {
+    margin-top: 20px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    -webkit-box-shadow: 0px -10px #cfdad4;
+    box-shadow: 0px -10px #cfdad4;
+     position:fixed;
+     bottom:0;
+     width:100%;
+     height:45px;
+     background: #193242;
+     color: rgba(255, 255, 255, 0.5);
+  }
+
+  footer p {
+    padding-top: 15px;
+    font-size: 12px;
+    color: white;
+  }
+
+  footer .alert-link{
+    color:rgba(200, 200, 255, 0.7);
+  }
+
+  /* MEDIA */
+
+  @media (max-width: 991px)
+  {
+    .nav > .nav-item {
+      margin-left:10px;
+    }
+    .main-site {
+      margin-right: 0px;
+    }
+    .jumbotron {
+      margin-left: 10px;
+    }
+  }
